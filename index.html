@@ -3,25 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Site Web</title>
+    <title>Alpiclean</title>
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
+            background-color: #1a1e35;
+            color: white;
         }
         header {
             background-color: #1a1e35;
             color: white;
             padding: 20px;
             text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            width: 50px;
+            height: auto;
+            margin-left: 20px;
         }
         nav {
             display: flex;
             justify-content: center;
             gap: 20px;
-            margin-top: 10px;
         }
         nav a {
             color: white;
@@ -33,7 +40,7 @@
             text-align: center;
         }
         footer {
-            background-color: #1a1e35;
+            background-color: #13172b;
             color: white;
             text-align: center;
             padding: 20px;
@@ -45,7 +52,8 @@
 </head>
 <body>
     <header>
-        <h1>Mon Site Web</h1>
+        <img src="logo.png" alt="Alpiclean Logo" class="logo">
+        <h1>Alpiclean</h1>
         <nav>
             <a href="#">Accueil</a>
             <a href="#">À propos</a>
@@ -55,12 +63,12 @@
     </header>
     
     <div class="container">
-        <h2>Bienvenue sur mon site</h2>
+        <h2>Bienvenue sur Alpiclean</h2>
         <p>Ceci est la section principale du site où vous pouvez ajouter votre contenu.</p>
     </div>
     
     <footer>
-        <p>&copy; 2025 Mon Site Web. Tous droits réservés.</p>
+        <p>&copy; 2025 Alpiclean. Tous droits réservés.</p>
     </footer>
 </body>
 </html>
